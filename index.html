@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- Estilos -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/fcb1ee29b4.js" crossorigin="anonymous"></script>
 
@@ -36,24 +37,24 @@
         <img src="images/logo.svg" alt="">
     </section>
     <section id="middle">
-        <div class="container-fluid">
-            <h1> We are launching soon!</h1>
+        <div class="container-fluid middle-cont">
+            <h1> We are launching <em>soon!</em></h1>
             <h3> Subscribe and get notified</h3>
             <div class="row">
                 <div class="col-md-8">
-                    <input type="text" placeholder="Your email address...">
+                    <input class="form-control input-lg email form-rounded" type="text" name="email" onchange="check();" placeholder="Your email address...">
                 </div>
                 <div class="col-md-4">
-                    <button class="btn btn-lg"> Notify Me</button>
+                    <button class="btn btn-lg notify-btn"> Notify Me</button>
                 </div>
             </div>
             <img src="images/illustration-dashboard.png" alt="">
         </div>
     </section>
     <section id="cta">
-        <div class="container-fluid">
+        <div class="container-fluid cta-cont">
             <div class="row">
-                <i class="fab fa-1.5x fa-facebook fas-footer"></i>
+                <i class="fab fa-facebook fas-footer"></i>
                 <i class="fab fa-twitter fas-footer"></i>
                 <i class="fab fa-instagram fas-footer"></i>
 
@@ -66,6 +67,7 @@
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Carmen Lucas Fornell</a>.
         </p>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>
