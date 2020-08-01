@@ -67,3 +67,49 @@ $font-weight-bold: 700;
         }
     }
 }
+
+@media screen and (max-width:789px) {
+    #top {
+        text-align: center;
+        padding: 3% 0 3% 0;
+    }
+    #middle {
+        .middle-cont {
+            text-align: center;
+            h3 {
+                padding-top: 5%;
+            }
+            .row {
+                padding: 4% 20%;
+                .notify-btn {
+                    margin: 3% 0;
+                }
+            }
+            img {
+                width: 100%;
+                padding: 3% 1%;
+            }
+        }
+    }
+    .cta-cont {
+        margin: 3% 42%;
+        .fas-footer {
+            padding: 0 2%;
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+}
+
+//validation field
+.hide {
+    display: none;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    font-style: italic;
+}

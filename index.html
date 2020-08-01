@@ -40,14 +40,17 @@
         <div class="container-fluid middle-cont">
             <h1> We are launching <em>soon!</em></h1>
             <h3> Subscribe and get notified</h3>
-            <div class="row">
-                <div class="col-md-8">
-                    <input class="form-control input-lg email form-rounded" type="text" name="email" onchange="check();" placeholder="Your email address...">
+            <form myform>
+                <div class="row">
+                    <div class="col-md-8">
+                        <input class="form-control input-lg email form-rounded" type="text" name="email" placeholder="Your email address...">
+                        <span class="error hide"></span>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-lg notify-btn"> Notify Me</button>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <button class="btn btn-lg notify-btn"> Notify Me</button>
-                </div>
-            </div>
+            </form>
             <img src="images/illustration-dashboard.png" alt="">
         </div>
     </section>
